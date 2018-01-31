@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardview_corner_radius">12dp</dimen>
+    <dimen name="cardview_elevation">8dp</dimen>
+    <dimen name="view_distance">8dp</dimen>
+    <dimen name="cardview_distance">10dp</dimen>
+    <dimen name="radio_button_distance">4dp</dimen>
+    <dimen name="check_box_distance">@dimen/radio_button_distance</dimen>
+    <dimen name="edit_text_distance">12dp</dimen>
+
+    <dimen name="question_text_size">24sp</dimen>
+    <dimen name="answer_text_size">16dp</dimen>
+</resources>

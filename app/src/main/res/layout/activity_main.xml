@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.android.athleticsquiz.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            style="@style/CardViewStyle"
+            card_view:cardBackgroundColor="@color/first_cardview_background_color">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/ImageViewStyle"
+                    android:src="@drawable/planets" />
+
+                <TextView
+                    style="@style/QuestionTextStyle"
+                    android:text="@string/athletics_question_1_text" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/view_distance">
+
+                    <RadioButton
+                        style="@style/RadioButtonStyle"
+                        android:text="@string/athletics_question_1_answer_1" />
+
+                    <RadioButton
+                        android:id="@+id/athletics_question_1_correct_answer_1"
+                        style="@style/RadioButtonStyle"
+                        android:text="@string/athletics_question_1_answer_2" />
+
+                    <RadioButton
+                        style="@style/RadioButtonStyle"
+                        android:text="@string/athletics_question_1_answer_3" />
+
+                    <RadioButton
+                        style="@style/RadioButtonStyle"
+                        android:text="@string/athletics_question_1_answer_4" />
+                </RadioGroup>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--style="@style/CardViewStyle"-->
+            <!--card_view:cardBackgroundColor="@color/second_cardview_background_color">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--style="@style/QuestionTextStyle"-->
+                    <!--android:text="@string/athletics_question_2_text" />-->
+
+                <!--<TableLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="@dimen/view_distance">-->
+
+                    <!--<TableRow>-->
+
+                        <!--<CheckBox-->
+                            <!--android:id="@+id/athletics_question_2_correct_answer_1"-->
+                            <!--style="@style/CheckBoxStyle"-->
+                            <!--android:layout_weight="1"-->
+                            <!--android:text="@string/athletics_question_2_answer_1" />-->
+
+                        <!--<CheckBox-->
+                            <!--style="@style/CheckBoxStyle"-->
+                            <!--android:layout_weight="1"-->
+                            <!--android:text="@string/athletics_question_2_answer_2" />-->
+                    <!--</TableRow>-->
+
+                    <!--<TableRow>-->
+
+                        <!--<CheckBox-->
+                            <!--android:id="@+id/athletics_question_2_correct_answer_2"-->
+                            <!--style="@style/CheckBoxStyle"-->
+                            <!--android:layout_weight="1"-->
+                            <!--android:text="@string/athletics_question_2_answer_3" />-->
+
+                        <!--<CheckBox-->
+                            <!--style="@style/CheckBoxStyle"-->
+                            <!--android:layout_weight="1"-->
+                            <!--android:text="@string/athletics_question_2_answer_4" />-->
+                    <!--</TableRow>-->
+                <!--</TableLayout>-->
+            <!--</LinearLayout>-->
+        <!--</android.support.v7.widget.CardView>-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--style="@style/CardViewStyle"-->
+            <!--card_view:cardBackgroundColor="@color/first_cardview_background_color">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--style="@style/QuestionTextStyle"-->
+                    <!--android:text="@string/athletics_question_3_text" />-->
+
+                <!--<RadioGroup-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="@dimen/view_distance"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<RadioButton-->
+                        <!--style="@style/RadioButtonStyle"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:text="@string/athletics_question_3_answer_1" />-->
+
+                    <!--<RadioButton-->
+                        <!--android:id="@+id/athletics_question_3_correct_answer_1"-->
+                        <!--style="@style/RadioButtonStyle"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:text="@string/athletics_question_3_answer_2" />-->
+                <!--</RadioGroup>-->
+            <!--</LinearLayout>-->
+        <!--</android.support.v7.widget.CardView>-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--style="@style/CardViewStyle"-->
+            <!--card_view:cardBackgroundColor="@color/second_cardview_background_color">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<ImageView-->
+                    <!--style="@style/ImageViewStyle"-->
+                    <!--android:src="@drawable/jupiter" />-->
+
+                <!--<TextView-->
+                    <!--style="@style/QuestionTextStyle"-->
+                    <!--android:text="@string/athletics_question_4_text" />-->
+
+                <!--<RadioGroup-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="@dimen/view_distance">-->
+
+                    <!--<RadioButton-->
+                        <!--style="@style/RadioButtonStyle"-->
+                        <!--android:text="@string/athletics_question_4_answer_1" />-->
+
+                    <!--<RadioButton-->
+                        <!--style="@style/RadioButtonStyle"-->
+                        <!--android:text="@string/athletics_question_4_answer_2" />-->
+
+                    <!--<RadioButton-->
+                        <!--style="@style/RadioButtonStyle"-->
+                        <!--android:text="@string/athletics_question_4_answer_3" />-->
+
+                    <!--<RadioButton-->
+                        <!--android:id="@+id/athletics_question_4_correct_answer_1"-->
+                        <!--style="@style/RadioButtonStyle"-->
+                        <!--android:text="@string/athletics_question_4_answer_4" />-->
+                <!--</RadioGroup>-->
+            <!--</LinearLayout>-->
+        <!--</android.support.v7.widget.CardView>-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--style="@style/CardViewStyle"-->
+            <!--card_view:cardBackgroundColor="@color/first_cardview_background_color">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--style="@style/QuestionTextStyle"-->
+                    <!--android:text="@string/athletics_question_5_text" />-->
+
+                <!--<EditText-->
+                    <!--style="@style/EditTextStyle"-->
+                    <!--android:inputType="numberDecimal" />-->
+            <!--</LinearLayout>-->
+        <!--</android.support.v7.widget.CardView>-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--style="@style/CardViewStyle"-->
+            <!--card_view:cardBackgroundColor="@color/second_cardview_background_color">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<ImageView-->
+                    <!--style="@style/ImageViewStyle"-->
+                    <!--android:src="@drawable/saturn" />-->
+
+                <!--<TextView-->
+                    <!--style="@style/QuestionTextStyle"-->
+                    <!--android:text="@string/athletics_question_6_text" />-->
+
+                <!--<RadioGroup-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="@dimen/view_distance">-->
+
+                    <!--<RadioButton-->
+                        <!--style="@style/RadioButtonStyle"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:text="@string/athletics_question_6_answer_1" />-->
+
+                    <!--<RadioButton-->
+                        <!--style="@style/RadioButtonStyle"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:text="@string/athletics_question_6_answer_2" />-->
+
+                    <!--<RadioButton-->
+                        <!--android:id="@+id/athletics_question_6_correct_answer_1"-->
+                        <!--style="@style/RadioButtonStyle"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:text="@string/athletics_question_6_answer_3" />-->
+
+                    <!--<RadioButton-->
+                        <!--style="@style/RadioButtonStyle"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:text="@string/athletics_question_6_answer_4" />-->
+                <!--</RadioGroup>-->
+            <!--</LinearLayout>-->
+        <!--</android.support.v7.widget.CardView>-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--style="@style/CardViewStyle"-->
+            <!--card_view:cardBackgroundColor="@color/first_cardview_background_color">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--style="@style/QuestionTextStyle"-->
+                    <!--android:text="@string/athletics_question_7_text" />-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="@dimen/view_distance"-->
+                    <!--android:orientation="vertical">-->
+
+                    <!--<CheckBox-->
+                        <!--android:id="@+id/athletics_question_7_correct_answer_1"-->
+                        <!--style="@style/CheckBoxStyle"-->
+                        <!--android:text="@string/athletics_question_7_answer_1" />-->
+
+                    <!--<CheckBox-->
+                        <!--style="@style/CheckBoxStyle"-->
+                        <!--android:text="@string/athletics_question_7_answer_2" />-->
+
+                    <!--<CheckBox-->
+                        <!--android:id="@+id/athletics_question_7_correct_answer_2"-->
+                        <!--style="@style/CheckBoxStyle"-->
+                        <!--android:text="@string/athletics_question_7_answer_3" />-->
+
+                    <!--<CheckBox-->
+                        <!--android:id="@+id/athletics_question_7_correct_answer_3"-->
+                        <!--style="@style/CheckBoxStyle"-->
+                        <!--android:text="@string/athletics_question_7_answer_4" />-->
+                <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+        <!--</android.support.v7.widget.CardView>-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--style="@style/CardViewStyle"-->
+            <!--card_view:cardBackgroundColor="@color/second_cardview_background_color">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--style="@style/QuestionTextStyle"-->
+                    <!--android:text="@string/athletics_question_8_text" />-->
+
+                <!--<RadioGroup-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="@dimen/view_distance"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<RadioButton-->
+                        <!--style="@style/RadioButtonStyle"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:text="@string/athletics_question_8_answer_1" />-->
+
+                    <!--<RadioButton-->
+                        <!--android:id="@+id/athletics_question_8_correct_answer_1"-->
+                        <!--style="@style/RadioButtonStyle"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:text="@string/athletics_question_8_answer_2" />-->
+                <!--</RadioGroup>-->
+            <!--</LinearLayout>-->
+        <!--</android.support.v7.widget.CardView>-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--style="@style/CardViewStyle"-->
+            <!--card_view:cardBackgroundColor="@color/first_cardview_background_color">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<ImageView-->
+                    <!--style="@style/ImageViewStyle"-->
+                    <!--android:src="@drawable/inner_planets" />-->
+
+                <!--<TextView-->
+                    <!--style="@style/QuestionTextStyle"-->
+                    <!--android:text="@string/athletics_question_9_text" />-->
+
+                <!--<TableLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="@dimen/view_distance">-->
+
+                    <!--<TableRow>-->
+
+                        <!--<CheckBox-->
+                            <!--style="@style/CheckBoxStyle"-->
+                            <!--android:layout_weight="1"-->
+                            <!--android:text="@string/athletics_question_9_answer_1" />-->
+
+                        <!--<CheckBox-->
+                            <!--android:id="@+id/athletics_question_9_correct_answer_1"-->
+                            <!--style="@style/CheckBoxStyle"-->
+                            <!--android:layout_weight="1"-->
+                            <!--android:text="@string/athletics_question_9_answer_2" />-->
+                    <!--</TableRow>-->
+
+                    <!--<TableRow>-->
+
+                        <!--<CheckBox-->
+                            <!--style="@style/CheckBoxStyle"-->
+                            <!--android:layout_weight="1"-->
+                            <!--android:text="@string/athletics_question_9_answer_3" />-->
+
+                        <!--<CheckBox-->
+                            <!--style="@style/CheckBoxStyle"-->
+                            <!--android:layout_weight="1"-->
+                            <!--android:text="@string/athletics_question_9_answer_4" />-->
+                    <!--</TableRow>-->
+                <!--</TableLayout>-->
+            <!--</LinearLayout>-->
+        <!--</android.support.v7.widget.CardView>-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--style="@style/CardViewStyle"-->
+            <!--card_view:cardBackgroundColor="@color/second_cardview_background_color">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--style="@style/QuestionTextStyle"-->
+                    <!--android:text="@string/athletics_question_10_text" />-->
+
+                <!--<RadioGroup-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="@dimen/view_distance">-->
+
+                    <!--<RadioButton-->
+                        <!--android:id="@+id/athletics_question_10_correct_answer_1"-->
+                        <!--style="@style/RadioButtonStyle"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:text="@string/athletics_question_10_answer_1" />-->
+
+                    <!--<RadioButton-->
+                        <!--style="@style/RadioButtonStyle"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:text="@string/athletics_question_10_answer_2" />-->
+
+                    <!--<RadioButton-->
+                        <!--style="@style/RadioButtonStyle"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:text="@string/athletics_question_10_answer_3" />-->
+
+                    <!--<RadioButton-->
+                        <!--style="@style/RadioButtonStyle"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:text="@string/athletics_question_10_answer_4" />-->
+                <!--</RadioGroup>-->
+            <!--</LinearLayout>-->
+        <!--</android.support.v7.widget.CardView>-->
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:gravity="center"
+            android:elevation="20dp"/>
+    </LinearLayout>
+</ScrollView>
+
