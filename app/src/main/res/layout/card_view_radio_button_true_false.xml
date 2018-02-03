@@ -3,7 +3,7 @@
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:id="@+id/question_card"
     style="@style/CardViewStyle"
-    card_view:cardBackgroundColor="@color/first_cardview_background_color">
+    card_view:cardBackgroundColor="@color/card_view_radio_button_true_false_background_color">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,13 +31,6 @@
                 android:id="@+id/question_answer_2"
                 style="@style/RadioButtonStyle" />
 
-            <RadioButton
-                android:id="@+id/question_answer_3"
-                style="@style/RadioButtonStyle" />
-
-            <RadioButton
-                android:id="@+id/question_answer_4"
-                style="@style/RadioButtonStyle" />
         </RadioGroup>
     </LinearLayout>
 </android.support.v7.widget.CardView>

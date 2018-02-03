@@ -1,65 +1,57 @@
-<resources>
-    <string name="app_name">Solar System Quiz</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Space Quiz</string>
+    <string name="space_question_number"><xliff:g>10</xliff:g></string>
 
-    <string name="athletics_question_1_text">Which is the planet closest to the Sun?</string>
-    <string name="athletics_question_1_answer_1">Venus</string>
-    <string name="athletics_question_1_answer_2">Mercury</string>
-    <string name="athletics_question_1_answer_3">Mars</string>
-    <string name="athletics_question_1_answer_4">Saturn</string>
-    <string name="athletics_question_1_correct_answer">2</string>
+    <string name="space_question_1_text"><xliff:g>[Question]</xliff:g>Which is the planet closest to the Sun?</string>
+    <string name="space_question_1_answer_1"><xliff:g>[Answer]</xliff:g>Venus</string>
+    <string name="space_question_1_answer_2"><xliff:g>[Answer][Correct]</xliff:g>Mercury</string>
+    <string name="space_question_1_answer_3"><xliff:g>[Answer]</xliff:g>Mars</string>
+    <string name="space_question_1_answer_4"><xliff:g>[Answer]</xliff:g>Saturn</string>
 
-    <string name="athletics_question_2_text">Which among these are dwarf planet?</string>
-    <string name="athletics_question_2_answer_1">Pluto</string>
-    <string name="athletics_question_2_answer_2">Neptune</string>
-    <string name="athletics_question_2_answer_3">Makemake</string>
-    <string name="athletics_question_2_answer_4">Uranus</string>
-    <string name="athletics_question_2_correct_answer">1,3</string>
+    <string name="space_question_2_text"><xliff:g>[Question]</xliff:g>Which among these are dwarf planet?</string>
+    <string name="space_question_2_answer_1"><xliff:g>[Answer][Correct]</xliff:g>Pluto</string>
+    <string name="space_question_2_answer_2"><xliff:g>[Answer]</xliff:g>Neptune</string>
+    <string name="space_question_2_answer_3"><xliff:g>[Answer][Correct]</xliff:g>Makemake</string>
+    <string name="space_question_2_answer_4"><xliff:g>[Answer]</xliff:g>Uranus</string>
 
-    <string name="athletics_question_3_text">Mercury is the hottest planet?</string>
-    <string name="athletics_question_3_answer_1">True</string>
-    <string name="athletics_question_3_answer_2">False</string>
-    <string name="athletics_question_3_correct_answer">2</string>
+    <string name="space_question_3_text"><xliff:g>[Question]</xliff:g>Mercury is the hottest planet?</string>
+    <string name="space_question_3_answer_1"><xliff:g>[Answer]</xliff:g>True</string>
+    <string name="space_question_3_answer_2"><xliff:g>[Answer][Correct]</xliff:g>False</string>
 
-    <string name="athletics_question_4_text">How many known satellites has Jupiter?</string>
-    <string name="athletics_question_4_answer_1">57</string>
-    <string name="athletics_question_4_answer_2">65</string>
-    <string name="athletics_question_4_answer_3">73</string>
-    <string name="athletics_question_4_answer_4">69</string>
-    <string name="athletics_question_4_correct_answer">4</string>
+    <string name="space_question_4_text"><xliff:g>[Question]</xliff:g>How many known satellites has Jupiter?</string>
+    <string name="space_question_4_answer_1"><xliff:g>[Answer]</xliff:g>57</string>
+    <string name="space_question_4_answer_2"><xliff:g>[Answer]</xliff:g>65</string>
+    <string name="space_question_4_answer_3"><xliff:g>[Answer]</xliff:g>73</string>
+    <string name="space_question_4_answer_4"><xliff:g>[Answer][Correct]</xliff:g>69</string>
 
-    <string name="athletics_question_5_text">How many planets there are in the Solar System?</string>
-    <string name="athletics_question_5_correct_answer">8</string>
+    <string name="space_question_5_text"><xliff:g>[Question]</xliff:g>How many planets there are in the Solar System?</string>
+    <string name="space_question_5_correct_answer"><xliff:g>[Answer][Correct]</xliff:g>8</string>
 
-    <string name="athletics_question_6_text">Which planet is famous for its ring system?</string>
-    <string name="athletics_question_6_answer_1">Jupiter</string>
-    <string name="athletics_question_6_answer_2">Uranus</string>
-    <string name="athletics_question_6_answer_3">Saturn</string>
-    <string name="athletics_question_6_answer_4">Neptune</string>
-    <string name="athletics_question_6_correct_answer">3</string>
+    <string name="space_question_6_text"><xliff:g>[Question]</xliff:g>Which planet is famous for its ring system?</string>
+    <string name="space_question_6_answer_1"><xliff:g>[Answer]</xliff:g>Jupiter</string>
+    <string name="space_question_6_answer_2"><xliff:g>[Answer]</xliff:g>Uranus</string>
+    <string name="space_question_6_answer_3"><xliff:g>[Answer][Correct]</xliff:g>Saturn</string>
+    <string name="space_question_6_answer_4"><xliff:g>[Answer]</xliff:g>Neptune</string>
 
-    <string name="athletics_question_7_text">Which among these statements about the Solar System are true?</string>
-    <string name="athletics_question_7_answer_1">Ceres is the largest asteroid</string>
-    <string name="athletics_question_7_answer_2">It is formed 3 billion year ago</string>
-    <string name="athletics_question_7_answer_3">Proxima Centauri is the nearest star</string>
-    <string name="athletics_question_7_answer_4">The sun is a star</string>
-    <string name="athletics_question_7_correct_answer">1,3,4</string>
+    <string name="space_question_7_text"><xliff:g>[Question]</xliff:g>Which among these statements about the Solar System are true?</string>
+    <string name="space_question_7_answer_1"><xliff:g>[Answer][Correct]</xliff:g>Ceres is the largest asteroid</string>
+    <string name="space_question_7_answer_2"><xliff:g>[Answer]</xliff:g>It is formed 3 billion year ago</string>
+    <string name="space_question_7_answer_3"><xliff:g>[Answer][Correct]</xliff:g>Proxima Centauri is the nearest star</string>
+    <string name="space_question_7_answer_4"><xliff:g>[Answer][Correct]</xliff:g>The sun is a star</string>
 
-    <string name="athletics_question_8_text">The asteroid belt is situated between the orbits of Mars and Jupiter?</string>
-    <string name="athletics_question_8_answer_1">True</string>
-    <string name="athletics_question_8_answer_2">False</string>
-    <string name="athletics_question_8_correct_answer">1</string>
+    <string name="space_question_8_text"><xliff:g>[Question]</xliff:g>The asteroid belt is situated between the orbits of Mars and Jupiter?</string>
+    <string name="space_question_8_answer_1"><xliff:g>[Answer][Correct]</xliff:g>True</string>
+    <string name="space_question_8_answer_2"><xliff:g>[Answer]</xliff:g>False</string>
 
-    <string name="athletics_question_9_text">Which of these planets is situeted in the inner Solar System?</string>
-    <string name="athletics_question_9_answer_1">Uranus</string>
-    <string name="athletics_question_9_answer_2">Venus</string>
-    <string name="athletics_question_9_answer_3">Jupiter</string>
-    <string name="athletics_question_9_answer_4">Neptune</string>
-    <string name="athletics_question_9_correct_answer">2</string>
+    <string name="space_question_9_text"><xliff:g>[Question]</xliff:g>Which of these planets is situeted in the inner Solar System?</string>
+    <string name="space_question_9_answer_1"><xliff:g>[Answer]</xliff:g>Uranus</string>
+    <string name="space_question_9_answer_2"><xliff:g>[Answer][Correct]</xliff:g>Venus</string>
+    <string name="space_question_9_answer_3"><xliff:g>[Answer]</xliff:g>Jupiter</string>
+    <string name="space_question_9_answer_4"><xliff:g>[Answer]</xliff:g>Neptune</string>
 
-    <string name="athletics_question_10_text">Of which planet Titan is a moon?</string>
-    <string name="athletics_question_10_answer_1">Saturn</string>
-    <string name="athletics_question_10_answer_2">Mars</string>
-    <string name="athletics_question_10_answer_3">Mercury</string>
-    <string name="athletics_question_10_answer_4">Neptune</string>
-    <string name="athletics_question_10_correct_answer">1</string>
+    <string name="space_question_10_text"><xliff:g>[Question]</xliff:g>Of which planet Titan is a moon?</string>
+    <string name="space_question_10_answer_1"><xliff:g>[Answer][Correct]</xliff:g>Saturn</string>
+    <string name="space_question_10_answer_2"><xliff:g>[Answer]</xliff:g>Mars</string>
+    <string name="space_question_10_answer_3"><xliff:g>[Answer]</xliff:g>Mercury</string>
+    <string name="space_question_10_answer_4"><xliff:g>[Answer]</xliff:g>Neptune</string>
 </resources>

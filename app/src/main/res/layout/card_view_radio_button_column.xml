@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/question_card"
+    style="@style/CardViewStyle"
+    card_view:cardBackgroundColor="@color/card_view_radio_button_column_background_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/question_photo"
+            style="@style/ImageViewStyle" />
+
+        <TextView
+            android:id="@+id/question_text"
+            style="@style/QuestionTextStyle" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/view_distance">
+
+            <RadioButton
+                android:id="@+id/question_answer_1"
+                style="@style/RadioButtonStyle" />
+
+            <RadioButton
+                android:id="@+id/question_answer_2"
+                style="@style/RadioButtonStyle" />
+
+            <RadioButton
+                android:id="@+id/question_answer_3"
+                style="@style/RadioButtonStyle" />
+
+            <RadioButton
+                android:id="@+id/question_answer_4"
+                style="@style/RadioButtonStyle" />
+        </RadioGroup>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
