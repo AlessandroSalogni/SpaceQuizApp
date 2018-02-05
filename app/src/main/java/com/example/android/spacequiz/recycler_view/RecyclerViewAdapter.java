@@ -1,10 +1,11 @@
-package com.example.android.spacequiz;
+package com.example.android.spacequiz.recycler_view;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.ViewGroup;
 
+import com.example.android.spacequiz.parse_data.ParseData;
 import com.example.android.spacequiz.observer.Observer;
-import com.example.android.spacequiz.view_holder.superclass_view_holder.ViewHolder;
+import com.example.android.spacequiz.recycler_view.view_holder.superclass_view_holder.ViewHolder;
 
 import java.util.ArrayList;
 

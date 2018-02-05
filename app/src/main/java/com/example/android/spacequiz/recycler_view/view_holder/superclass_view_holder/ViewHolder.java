@@ -1,4 +1,4 @@
-package com.example.android.spacequiz.view_holder.superclass_view_holder;
+package com.example.android.spacequiz.recycler_view.view_holder.superclass_view_holder;
 
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
@@ -7,7 +7,7 @@ import android.support.v7.widget.RecyclerView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.android.spacequiz.ParseData;
+import com.example.android.spacequiz.parse_data.ParseData;
 import com.example.android.spacequiz.R;
 import com.example.android.spacequiz.observer.Observable;
 import com.example.android.spacequiz.observer.Observer;
