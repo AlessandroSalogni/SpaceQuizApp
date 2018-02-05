@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="space_missions_question_1">
+        <item>@string/space_missions_question_1_text</item>
+        <item>@string/space_missions_question_1_answer_1</item>
+        <item>@string/space_missions_question_1_answer_2</item>
+        <item>@string/space_missions_question_1_answer_3</item>
+        <item>@string/space_missions_question_1_answer_4</item>
+        <item>[Type][RadioButtonColumn]</item>
+    </string-array>
+    <string-array name="space_missions_question_2">
+        <item>@string/space_missions_question_2_text</item>
+        <item>@string/space_missions_question_2_correct_answer</item>
+        <item>[Type][FreeAnswer]</item>
+        <item>[Drawable]moon_landing</item>
+    </string-array>
+    <string-array name="space_missions_question_3">
+        <item>@string/space_missions_question_3_text</item>
+        <item>@string/space_missions_question_3_answer_1</item>
+        <item>@string/space_missions_question_3_answer_2</item>
+        <item>@string/space_missions_question_3_answer_3</item>
+        <item>@string/space_missions_question_3_answer_4</item>
+        <item>[Type][CheckBoxColumn]</item>
+    </string-array>
+    <string-array name="space_missions_question_4">
+        <item>@string/space_missions_question_4_text</item>
+        <item>@string/space_missions_question_4_answer_1</item>
+        <item>@string/space_missions_question_4_answer_2</item>
+        <item>@string/space_missions_question_4_answer_3</item>
+        <item>@string/space_missions_question_4_answer_4</item>
+        <item>[Type][RadioButtonColumn]</item>
+        <item>[Drawable]yuri_gagarin</item>
+    </string-array>
+    <string-array name="space_missions_question_5">
+        <item>@string/space_missions_question_5_text</item>
+        <item>@string/space_missions_question_5_answer_1</item>
+        <item>@string/space_missions_question_5_answer_2</item>
+        <item>[Type][RadioButtonTrueFalse]</item>
+    </string-array>
+    <string-array name="space_missions_question_6">
+        <item>@string/space_missions_question_6_text</item>
+        <item>@string/space_missions_question_6_answer_1</item>
+        <item>@string/space_missions_question_6_answer_2</item>
+        <item>@string/space_missions_question_6_answer_3</item>
+        <item>@string/space_missions_question_6_answer_4</item>
+        <item>[Type][CheckBoxTable]</item>
+    </string-array>
+    <string-array name="space_missions_question_7">
+        <item>@string/space_missions_question_7_text</item>
+        <item>@string/space_missions_question_7_answer_1</item>
+        <item>@string/space_missions_question_7_answer_2</item>
+        <item>@string/space_missions_question_7_answer_3</item>
+        <item>@string/space_missions_question_7_answer_4</item>
+        <item>[Type][RadioButtonColumn]</item>
+    </string-array>
+    <string-array name="space_missions_question_8">
+        <item>@string/space_missions_question_8_text</item>
+        <item>@string/space_missions_question_8_answer_1</item>
+        <item>@string/space_missions_question_8_answer_2</item>
+        <item>[Type][RadioButtonTrueFalse]</item>
+        <item>[Drawable]iss</item>
+    </string-array>
+</resources>

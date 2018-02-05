@@ -15,8 +15,19 @@ import com.example.android.spacequiz.view_holder.superclass_view_holder.RadioBut
  */
 public class RadioButtonColumnViewHolder extends RadioButtonViewHolder {
     private static final int MAX_ANSWER = 4;
+    private static final int CORRECT_ANSWER_POINTS = 3;
 
     public RadioButtonColumnViewHolder(ViewGroup parent, ParseData parseData, Observer obs) {
         super((CardView) LayoutInflater.from(parent.getContext()).inflate(R.layout.card_view_radio_button_column, parent, false), parseData, obs, MAX_ANSWER);
+    }
+
+    @Override
+    public int getAnswerPoints() {
+        return (isCorrect) ? CORRECT_ANSWER_POINTS : 0;
+    }
+
+    @Override
+    public int getMaxPoint() {
+        return CORRECT_ANSWER_POINTS;
     }
 }

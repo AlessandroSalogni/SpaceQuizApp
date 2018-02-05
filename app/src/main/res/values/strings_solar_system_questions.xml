@@ -1,0 +1,57 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Solar System questions -->
+    <string name="solar_system_question_number"><xliff:g>10</xliff:g></string>
+
+    <string name="solar_system_question_1_text"><xliff:g>[Question]</xliff:g>Which is the planet closest to the Sun?</string>
+    <string name="solar_system_question_1_answer_1"><xliff:g>[Answer]</xliff:g>Venus</string>
+    <string name="solar_system_question_1_answer_2"><xliff:g>[Answer][Correct]</xliff:g>Mercury</string>
+    <string name="solar_system_question_1_answer_3"><xliff:g>[Answer]</xliff:g>Mars</string>
+    <string name="solar_system_question_1_answer_4"><xliff:g>[Answer]</xliff:g>Saturn</string>
+
+    <string name="solar_system_question_2_text"><xliff:g>[Question]</xliff:g>Which among these are dwarf planet?</string>
+    <string name="solar_system_question_2_answer_1"><xliff:g>[Answer][Correct]</xliff:g>Pluto</string>
+    <string name="solar_system_question_2_answer_2"><xliff:g>[Answer]</xliff:g>Neptune</string>
+    <string name="solar_system_question_2_answer_3"><xliff:g>[Answer][Correct]</xliff:g>Makemake</string>
+    <string name="solar_system_question_2_answer_4"><xliff:g>[Answer]</xliff:g>Uranus</string>
+
+    <string name="solar_system_question_3_text"><xliff:g>[Question]</xliff:g>Mercury is the hottest planet?</string>
+    <string name="solar_system_question_3_answer_1"><xliff:g>[Answer]</xliff:g>True</string>
+    <string name="solar_system_question_3_answer_2"><xliff:g>[Answer][Correct]</xliff:g>False</string>
+
+    <string name="solar_system_question_4_text"><xliff:g>[Question]</xliff:g>How many known satellites has Jupiter?</string>
+    <string name="solar_system_question_4_answer_1"><xliff:g>[Answer]</xliff:g>57</string>
+    <string name="solar_system_question_4_answer_2"><xliff:g>[Answer]</xliff:g>65</string>
+    <string name="solar_system_question_4_answer_3"><xliff:g>[Answer]</xliff:g>73</string>
+    <string name="solar_system_question_4_answer_4"><xliff:g>[Answer][Correct]</xliff:g>69</string>
+
+    <string name="solar_system_question_5_text"><xliff:g>[Question]</xliff:g>How many planets there are in the Solar System?</string>
+    <string name="solar_system_question_5_correct_answer"><xliff:g>[Answer][Correct]</xliff:g>8</string>
+
+    <string name="solar_system_question_6_text"><xliff:g>[Question]</xliff:g>Which planet is famous for its ring system?</string>
+    <string name="solar_system_question_6_answer_1"><xliff:g>[Answer]</xliff:g>Jupiter</string>
+    <string name="solar_system_question_6_answer_2"><xliff:g>[Answer]</xliff:g>Uranus</string>
+    <string name="solar_system_question_6_answer_3"><xliff:g>[Answer][Correct]</xliff:g>Saturn</string>
+    <string name="solar_system_question_6_answer_4"><xliff:g>[Answer]</xliff:g>Neptune</string>
+
+    <string name="solar_system_question_7_text"><xliff:g>[Question]</xliff:g>Which among these statements about the Solar System are true?</string>
+    <string name="solar_system_question_7_answer_1"><xliff:g>[Answer][Correct]</xliff:g>Ceres is the largest asteroid</string>
+    <string name="solar_system_question_7_answer_2"><xliff:g>[Answer]</xliff:g>It is formed 3 billion year ago</string>
+    <string name="solar_system_question_7_answer_3"><xliff:g>[Answer][Correct]</xliff:g>Proxima Centauri is the nearest star</string>
+    <string name="solar_system_question_7_answer_4"><xliff:g>[Answer][Correct]</xliff:g>The sun is a star</string>
+
+    <string name="solar_system_question_8_text"><xliff:g>[Question]</xliff:g>The asteroid belt is situated between the orbits of Mars and Jupiter?</string>
+    <string name="solar_system_question_8_answer_1"><xliff:g>[Answer][Correct]</xliff:g>True</string>
+    <string name="solar_system_question_8_answer_2"><xliff:g>[Answer]</xliff:g>False</string>
+
+    <string name="solar_system_question_9_text"><xliff:g>[Question]</xliff:g>Which of these planets is situeted in the inner Solar System?</string>
+    <string name="solar_system_question_9_answer_1"><xliff:g>[Answer]</xliff:g>Uranus</string>
+    <string name="solar_system_question_9_answer_2"><xliff:g>[Answer][Correct]</xliff:g>Venus</string>
+    <string name="solar_system_question_9_answer_3"><xliff:g>[Answer]</xliff:g>Jupiter</string>
+    <string name="solar_system_question_9_answer_4"><xliff:g>[Answer]</xliff:g>Neptune</string>
+
+    <string name="solar_system_question_10_text"><xliff:g>[Question]</xliff:g>Of which planet Titan is a moon?</string>
+    <string name="solar_system_question_10_answer_1"><xliff:g>[Answer][Correct]</xliff:g>Saturn</string>
+    <string name="solar_system_question_10_answer_2"><xliff:g>[Answer]</xliff:g>Mars</string>
+    <string name="solar_system_question_10_answer_3"><xliff:g>[Answer]</xliff:g>Mercury</string>
+    <string name="solar_system_question_10_answer_4"><xliff:g>[Answer]</xliff:g>Neptune</string>
+</resources>

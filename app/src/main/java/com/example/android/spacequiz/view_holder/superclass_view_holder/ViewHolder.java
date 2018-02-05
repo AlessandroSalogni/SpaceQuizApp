@@ -15,7 +15,7 @@ import com.example.android.spacequiz.observer.Observer;
 /**
  * @author Alessandro
  */
-public class ViewHolder extends RecyclerView.ViewHolder implements Observable {
+public abstract class ViewHolder extends RecyclerView.ViewHolder implements Observable {
     protected final ParseData parseData;
     private final ImageView image;
     private final TextView question;
@@ -43,9 +43,7 @@ public class ViewHolder extends RecyclerView.ViewHolder implements Observable {
         question.setText(parseData.getQuestion());
     }
 
-    public boolean isCorrectAnswer() {
-        return isCorrect;
-    }
+    public abstract int getMaxPoint();
 
     @Override
     public void addObserver(Observer obs) {

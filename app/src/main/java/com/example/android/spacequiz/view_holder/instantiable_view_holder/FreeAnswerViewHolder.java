@@ -17,6 +17,8 @@ import com.example.android.spacequiz.view_holder.superclass_view_holder.ViewHold
  */
 
 public class FreeAnswerViewHolder extends ViewHolder implements TextWatcher {
+    private static final int CORRECT_ANSWER_POINTS = 4;
+
     private final String correctAnswer;
     private final EditText answer;
 
@@ -30,6 +32,16 @@ public class FreeAnswerViewHolder extends ViewHolder implements TextWatcher {
         answer = cardView.findViewById(R.id.question_free_answer);
         answer.addTextChangedListener(this);
         correctAnswer = parseData.getAnswers().get(0);
+    }
+
+    @Override
+    public int getAnswerPoints() {
+        return (isCorrect) ? CORRECT_ANSWER_POINTS : 0;
+    }
+
+    @Override
+    public int getMaxPoint() {
+        return CORRECT_ANSWER_POINTS;
     }
 
     @Override

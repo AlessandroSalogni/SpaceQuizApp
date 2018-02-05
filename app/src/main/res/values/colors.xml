@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Base application colors -->
     <color name="colorPrimary">#F44336</color>
     <color name="colorPrimaryDark">#D32F2F</color>
-    <color name="colorAccent">#2196F3</color> <!--change-->
+    <color name="colorAccent">#2196F3</color>
 
+    <!-- main colors -->
+    <color name="main_text_color">@android:color/white</color>
+
+    <!-- send button colors -->
+    <color name="send_button_background_color">#558B2F</color>
+    <color name="send_button_stroke_color">@android:color/white</color>
+
+    <!-- card view colors -->
     <color name="card_view_radio_button_column_background_color">#FFF8E1</color>
     <color name="card_view_check_box_background_color">#E1F5FE</color>
     <color name="card_view_radio_button_true_false_background_color">#FFEBEE</color>
     <color name="card_view_free_answer_background_color">#E8F5E9</color>
+
+    <!-- restart button colors -->
+    <color name="restart_button_stroke_color">@android:color/white</color>
 </resources>

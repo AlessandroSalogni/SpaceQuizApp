@@ -19,15 +19,15 @@
 
             <TextView
                 style="@style/TitleTextStyle"
-                android:text="@string/question_category_1" />
+                android:text="@string/question_category_2" />
 
             <android.support.v7.widget.RecyclerView
-                android:id="@+id/solar_system_question_recycler_view"
+                android:id="@+id/space_missions_question_recycler_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
             <Button
-                android:id="@+id/solar_system_question_send_button"
+                android:id="@+id/space_missions_question_send_button"
                 style="@style/SendButtonStyle" />
         </LinearLayout>
     </ScrollView>

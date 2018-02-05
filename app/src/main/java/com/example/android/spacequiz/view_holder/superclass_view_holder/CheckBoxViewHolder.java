@@ -13,11 +13,13 @@ import java.util.ArrayList;
 /**
  * @author Alessandro
  */
-public class CheckBoxViewHolder extends ViewHolder implements CompoundButton.OnCheckedChangeListener {
+public abstract class CheckBoxViewHolder extends ViewHolder implements CompoundButton.OnCheckedChangeListener {
     private static final int MAX_ANSWER = 4;
 
     private final ArrayList<Integer> correctAnswersPosition;
     private final CheckBox[] answers = new CheckBox[MAX_ANSWER];
+
+    protected boolean isPartialCorrect = false;
 
     protected CheckBoxViewHolder(CardView cardView, ParseData parseData, Observer obs) {
         super(cardView, parseData, obs);
@@ -41,19 +43,25 @@ public class CheckBoxViewHolder extends ViewHolder implements CompoundButton.OnC
 
     @Override
     public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
-        boolean increasePoint = true;
+        boolean allCorrect = true;
+        boolean partialCorrect = false;
+
+        for(int i=0; i < correctAnswersPosition.size(); i++)
+            if(!answers[correctAnswersPosition.get(i)].isChecked())
+                allCorrect = false;
+            else
+                partialCorrect = true;
 
         for(int i=0; i < MAX_ANSWER; i++)
-            if(correctAnswersPosition.contains(i) && !answers[i].isChecked()) {
-                increasePoint = false;
-                break;
-            }
-            else if(!correctAnswersPosition.contains(i) && answers[i].isChecked()) {
-                increasePoint = false;
-                break;
-            }
+            if(!correctAnswersPosition.contains(i) && answers[i].isChecked())
+                if(allCorrect) {
+                    allCorrect = false;
+                    partialCorrect = true;
+                }
 
-        isCorrect = increasePoint;
+
+        isCorrect = allCorrect;
+        isPartialCorrect = (!allCorrect && partialCorrect);
         notifyObserver();
     }
 }

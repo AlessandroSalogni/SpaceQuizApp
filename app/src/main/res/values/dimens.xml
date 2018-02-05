@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="cardview_corner_radius">12dp</dimen>
-    <dimen name="cardview_elevation">8dp</dimen>
+    <!-- generic dimens -->
     <dimen name="view_distance">8dp</dimen>
+    <dimen name="big_view_distance">32dp</dimen>
+
+    <!-- title & category dimens-->
+    <dimen name="title_text_size">45sp</dimen>
+    <dimen name="category_text_size">34sp</dimen>
+
+    <!-- card view dimens -->
+    <dimen name="cardview_main_activity_height">120dp</dimen>
+    <dimen name="cardview_corner_radius">12dp</dimen>
+    <dimen name="cardview_elevation">12dp</dimen>
     <dimen name="cardview_distance">10dp</dimen>
+
+    <!-- question & answer dimens -->
     <dimen name="radio_button_distance">4dp</dimen>
     <dimen name="check_box_distance">@dimen/radio_button_distance</dimen>
     <dimen name="edit_text_distance">12dp</dimen>
-
     <dimen name="question_text_size">24sp</dimen>
-    <dimen name="answer_text_size">16dp</dimen>
+    <dimen name="answer_text_size">16sp</dimen>
+
+    <!-- send button dimens-->
+    <dimen name="send_button_size">80dp</dimen>
+    <dimen name="send_button_text_size">24sp</dimen>
+    <dimen name="send_button_stroke_size">1dp</dimen>
+
+    <!-- restart button dimens -->
+    <dimen name="restart_button_paddding">15dp</dimen>
+    <dimen name="restart_button_text_size">24sp</dimen>
+    <dimen name="restart_button_size">20dp</dimen>
+    <dimen name="restart_button_border_radius">10dp</dimen>
+    <dimen name="restart_button_stroke_size">@dimen/send_button_stroke_size</dimen>
+
+    <!-- score & description text view dimen -->
+    <dimen name="score_text_size">56sp</dimen>
+    <dimen name="score_description_text_size">24sp</dimen>
 </resources>

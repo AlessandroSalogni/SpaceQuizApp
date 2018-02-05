@@ -8,7 +8,15 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:fontFamily">@font/gentium_basic</item>
     </style>
-    
+
+    <style name="ActivityImageBackground">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:src">@drawable/universe_background</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:alpha">0.8</item>
+    </style>
+
     <style name="CardViewStyle" parent="CardView">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -23,6 +31,27 @@
         <item name="android:scaleType">centerCrop</item>
     </style>
 
+    <style name="MainTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/main_text_color</item>
+    </style>
+
+    <style name="TitleTextStyle" parent="MainTextStyle">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/big_view_distance</item>
+        <item name="android:layout_marginBottom">@dimen/big_view_distance</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+    </style>
+
+    <!-- Main Activity -->
+    <style name="CategoryTextStyle" parent="MainTextStyle">
+        <item name="android:textSize">@dimen/category_text_size</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <!-- Quiz Activity -->
     <style name="QuestionTextStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -55,5 +84,17 @@
         <item name="android:layout_marginStart">@dimen/view_distance</item>
         <item name="android:layout_marginEnd">@dimen/view_distance</item>
         <item name="android:textSize">@dimen/answer_text_size</item>
+    </style>
+
+    <style name="SendButtonStyle">
+        <item name="android:layout_width">@dimen/send_button_size</item>
+        <item name="android:layout_height">@dimen/send_button_size</item>
+        <item name="android:layout_marginTop">@dimen/big_view_distance</item>
+        <item name="android:layout_marginBottom">@dimen/big_view_distance</item>
+        <item name="android:background">@drawable/send_button</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:text">\u2713</item>
+        <item name="android:textSize">@dimen/send_button_text_size</item>
+        <item name="android:textColor">@color/main_text_color</item>
     </style>
 </resources>

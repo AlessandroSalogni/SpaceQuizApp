@@ -16,6 +16,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
     private final ArrayList<String[]> questions;
     private final Observer observer;
 
+    private int quizTotalScore = 0;
+
     // Provide a suitable constructor (depends on the kind of dataset)
     public RecyclerViewAdapter(ArrayList<String[]> questions, Observer obs) {
         this.questions = questions;
@@ -38,13 +40,19 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
     // Replace the contents of a view (invoked by the layout manager)
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder viewHolder, int position) {
-        if(viewHolder instanceof ViewHolder)
+        if(viewHolder instanceof ViewHolder) {
             ((ViewHolder) viewHolder).loadViewData();
+            quizTotalScore += ((ViewHolder) viewHolder).getMaxPoint();
+        }
     }
 
     // Return the size of your dataset (invoked by the layout manager)
     @Override
     public int getItemCount() {
         return questions.size();
+    }
+
+    public int getQuizTotalScore() {
+        return quizTotalScore;
     }
 }

@@ -1,0 +1,13 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <corners android:radius="@dimen/restart_button_border_radius"/>
+
+    <size
+        android:height="@dimen/restart_button_size"
+        android:width="@dimen/restart_button_size" />
+
+    <stroke
+        android:width="@dimen/restart_button_stroke_size"
+        android:color="@color/restart_button_stroke_color" />
+</shape>

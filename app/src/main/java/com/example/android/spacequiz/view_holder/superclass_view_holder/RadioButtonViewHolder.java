@@ -14,7 +14,7 @@ import java.util.ArrayList;
  * @author Alessandro
  */
 
-public class RadioButtonViewHolder extends ViewHolder implements CompoundButton.OnCheckedChangeListener {
+public abstract class RadioButtonViewHolder extends ViewHolder implements CompoundButton.OnCheckedChangeListener {
     private final int maxAnswers;
     private final RadioButton[] answers;
 
