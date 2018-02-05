@@ -1,4 +1,4 @@
-package com.example.android.spacequiz;
+package com.example.android.spacequiz.parse_data;
 
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
@@ -6,11 +6,11 @@ import android.support.v7.widget.RecyclerView;
 import android.view.ViewGroup;
 
 import com.example.android.spacequiz.observer.Observer;
-import com.example.android.spacequiz.view_holder.instantiable_view_holder.CheckBoxColumnViewHolder;
-import com.example.android.spacequiz.view_holder.instantiable_view_holder.CheckBoxTableViewHolder;
-import com.example.android.spacequiz.view_holder.instantiable_view_holder.FreeAnswerViewHolder;
-import com.example.android.spacequiz.view_holder.instantiable_view_holder.RadioButtonColumnViewHolder;
-import com.example.android.spacequiz.view_holder.instantiable_view_holder.RadioButtonTrueFalseViewHolder;
+import com.example.android.spacequiz.recycler_view.view_holder.instantiable_view_holder.CheckBoxColumnViewHolder;
+import com.example.android.spacequiz.recycler_view.view_holder.instantiable_view_holder.CheckBoxTableViewHolder;
+import com.example.android.spacequiz.recycler_view.view_holder.instantiable_view_holder.FreeAnswerViewHolder;
+import com.example.android.spacequiz.recycler_view.view_holder.instantiable_view_holder.RadioButtonColumnViewHolder;
+import com.example.android.spacequiz.recycler_view.view_holder.instantiable_view_holder.RadioButtonTrueFalseViewHolder;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;

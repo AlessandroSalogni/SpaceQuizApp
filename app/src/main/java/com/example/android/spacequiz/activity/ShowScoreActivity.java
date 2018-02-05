@@ -1,4 +1,4 @@
-package com.example.android.spacequiz;
+package com.example.android.spacequiz.activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.android.spacequiz.R;
+import com.example.android.spacequiz.activity.MainActivity;
 
 public class ShowScoreActivity extends AppCompatActivity implements View.OnClickListener {
     private static final int PERFECT_SCORE = 90;
