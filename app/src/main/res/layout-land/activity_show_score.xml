@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".activity.MainActivity">
+
+    <ImageView style="@style/ActivityImageBackground" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TitleTextStyle"
+                android:text="@string/score_title" />
+
+            <TextView
+                android:id="@+id/score_text"
+                style="@style/MainTextStyle"
+                android:layout_gravity="center"
+                android:textSize="@dimen/score_text_size" />
+
+            <TextView
+                android:id="@+id/score_description_text"
+                style="@style/MainTextStyle"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="@dimen/score_description_text_size" />
+
+            <Button
+                android:id="@+id/restart_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/big_view_distance"
+                android:background="@drawable/restart_button"
+                android:padding="@dimen/restart_button_paddding"
+                android:text="@string/restart_button_text"
+                android:textAllCaps="false"
+                android:textColor="@color/main_text_color"
+                android:textSize="@dimen/restart_button_text_size" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

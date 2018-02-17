@@ -16,7 +16,7 @@
 
         <TextView
             style="@style/TitleTextStyle"
-            android:text="Score" />
+            android:text="@string/score_title" />
 
         <TextView
             android:id="@+id/score_text"

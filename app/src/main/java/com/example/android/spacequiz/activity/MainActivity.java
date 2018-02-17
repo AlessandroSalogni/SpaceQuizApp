@@ -36,6 +36,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.question_category_3).setOnClickListener(this);
     }
 
+
+    @Override
+    protected void onSaveInstanceState(Bundle savedInstanceState) {
+        super.onSaveInstanceState(savedInstanceState);
+        savedInstanceState.putCharSequence(USERNAME, usernameEditText.getText());
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        usernameEditText.setText(savedInstanceState.getCharSequence(USERNAME));
+    }
+
     @Override
     public void onClick(View view) {
         Intent newQuizActivityCall = new Intent(this, strategy.get(view.getId()));

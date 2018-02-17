@@ -11,8 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activity.MainActivity"
-            android:screenOrientation="portrait">
+            android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,8 +22,7 @@
             android:name=".activity.SolarSystemActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.ShowScoreActivity"
-            android:screenOrientation="portrait" />
+            android:name=".activity.ShowScoreActivity" />
         <activity android:name=".activity.SpaceMissionsActivity"></activity>
     </application>
 

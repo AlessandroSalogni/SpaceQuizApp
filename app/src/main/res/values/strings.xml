@@ -8,6 +8,7 @@
     <string name="question_category_3">Universe</string>
 
     <!-- Show Score Activity-->
+    <string name="score_title">Score</string>
     <string name="score_text"><xliff:g>%d / %d</xliff:g></string>
     <string name="score_description_perfect_result">Wow <xliff:g>%s</xliff:g>, you master the topic perfectly :)</string>
     <string name="score_description_good_result">Great job <xliff:g>%s</xliff:g>, you know the topic, but you can still get better</string>

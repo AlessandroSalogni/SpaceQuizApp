@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.android.spacequiz.R;
 import com.example.android.spacequiz.activity.MainActivity;
@@ -17,8 +18,13 @@ public class ShowScoreActivity extends AppCompatActivity implements View.OnClick
     public static final String SCORE = "Score extra message";
     public static final String MAX_SCORE = "Max score extra message";
     public static final String USERNAME = "Username extra message";
+    private static final String DESCRIPTION = "Description score extra message";
 
+    private TextView scoreTextView;
+    private TextView scoreDescriptionTextView;
     private String username;
+    private String score;
+    private String description;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,8 +34,8 @@ public class ShowScoreActivity extends AppCompatActivity implements View.OnClick
         Button restartButton = findViewById(R.id.restart_button);
         restartButton.setOnClickListener(this);
 
-        TextView scoreTextView = findViewById(R.id.score_text);
-        TextView scoreDescriptionTextView = findViewById(R.id.score_description_text);
+        scoreTextView = findViewById(R.id.score_text);
+        scoreDescriptionTextView = findViewById(R.id.score_description_text);
 
         Intent quizActivityCall = getIntent();
         username = quizActivityCall.getStringExtra(USERNAME);
@@ -39,8 +45,26 @@ public class ShowScoreActivity extends AppCompatActivity implements View.OnClick
 
         checkScoreValue(score, maxScore);
 
-        scoreTextView.setText(getResources().getString(R.string.score_text, score, maxScore));
-        scoreDescriptionTextView.setText(getScoreDescription(username, (int) successRate));
+        scoreTextView.setText(this.score = getResources().getString(R.string.score_text, score, maxScore));
+        scoreDescriptionTextView.setText(description = getScoreDescription(username, (int) successRate));
+
+        Toast.makeText(this, "Your score is " + this.score, Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle savedInstanceState) {
+        super.onSaveInstanceState(savedInstanceState);
+        savedInstanceState.putCharSequence(SCORE, score);
+        savedInstanceState.putCharSequence(DESCRIPTION, description);
+        savedInstanceState.putCharSequence(USERNAME, username);
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        scoreTextView.setText(savedInstanceState.getCharSequence(SCORE));
+        scoreDescriptionTextView.setText(savedInstanceState.getCharSequence(DESCRIPTION));
+        username = (String) savedInstanceState.getCharSequence(USERNAME);
     }
 
     private String getScoreDescription(String username, int successRate) {
